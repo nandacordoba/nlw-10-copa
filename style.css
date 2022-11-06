@@ -122,17 +122,17 @@ header {
 .card h2,
 .card ul li strong,
 .card ul li img {
-  transition: transform 0.3s;
+  transition: transform 0.1s;
 }
 
 .card {
   opacity: 0;
-  animation: appear 0.2s forwards;
+  animation: appear 0.3s forwards;
 }
 
 @keyframes appear {
   0% {
-    transform: translateY(-50px);
+    transform: translateX(-50px);
     opacity: 0;
   }
 
@@ -148,4 +148,3 @@ header {
     flex-wrap: wrap;
   }
 }
-
