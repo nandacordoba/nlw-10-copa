@@ -9,7 +9,7 @@
 - HTML
 
 - CSS
-
+- JavaScript
 - Git e Github
 
 ## 📅 Projeto
