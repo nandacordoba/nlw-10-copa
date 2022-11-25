@@ -16,13 +16,15 @@ function createCard(date, day, games) {
       <h2>${date} <span>${day}</span></h2>
       <ul>
         ${games}
+        
       </ul>
     </div>
   `
 }
 
+
 document.querySelector("#cards").innerHTML =
-  createCard("24/11", "quinta", createGame("brazil", "16:00", "serbia")) +
+  createCard("24/11", "quinta", createGame("brazil", "2 x 0","serbia")) +
   createCard(
     "28/11",
     "segunda",
